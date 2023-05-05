@@ -27,18 +27,24 @@ It will be coded using HTML, CSS, and vanilla Javascript.
 4. Zsh (Bash)
 5. Node.js
 6. Git
+7. Figma
 
 ***
 
 #### **_Screenshots_**:
 
-Just an example photo: 
+Wireframe (Ambitious): 
 
-![Image](https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/ef/04/6a/ef046a19-85f7-b505-eb26-82a66c616d9d/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/256x256bb.jpg)
+![Image](https://i.imgur.com/xerczb7.png)
 
 ***
 
 #### **_Credits_**:
 
-(To Be Updated)
+[Figma](https://www.figma.com)
+
+[CodeBrainer](https://www.codebrainer.com/blog/skills-for-javascript-game-development)
+
+[Github](https://github.com/SEI-R-4-24/u1_lesson_connect_four)
+
 

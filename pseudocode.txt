@@ -1,1 +1,62 @@
+------------------------  HTML Section [WIREFRAME]  ------------------------------
 
+- BOILER PLATE 
+  1. After the main boiler plate is added, let's do a quick search just to get an idea of some fonts we may want to work with and have those imported into the <head> section. 
+  2. Import your <script> and your style.css into your document. 
+  3. Moving on to the main body:
+    - Main Header for Game:'The Maze' or some variant/themed version. 
+    - Secondary Header: To explain the game, rules, conditions, etc. 
+    - DIVS: 
+      - Header
+      - Subheader
+      - Timer
+      - Scoreboard
+      - Reset Button
+      - Icons/Links
+    
+------------------------  CSS Section  -------------------------------
+
+-- Theme Ideas
+  1. Gameboy Center 
+    - Holds the actual game screen. 
+  2. Color Scheme: TBD
+  3. DIV
+    - Timer
+    - Scoreborad
+    - Directions
+    - Links 
+
+------------------------  JS Section  --------------------------------
+
+  1. Declare a variable that creates the board using some sort of array or object or both.
+    1a. Call a function to initialize the game/board. 
+    1b. Create some sort of loop to iterate through each to check the status of the game/board. 
+    1c. Will most likely need to loop through the board to assign different divs to be a wall or an open space that the player can actually move into. 
+
+  2. Declare a variable that stores the value of the player. 
+    2a. Will need to assign some variation of coordinates to indicate where on the board the player will start.
+    2b. Will need to figure out a way to indicate where the player is moving after initialization. 
+    2c. Will most likely need to assign some location on the array that will be the "end" of the game that the player must work towards. 
+
+  3. Declare a variable that stores the value of querySelector grabbing the divs in the board itself. 
+    - This will allow for any DOM manipulation, event listener, or using it to run any sort of loops. 
+
+  4. Declare a variable to be used in the logic for a timer to increase the difficulty of the game. 
+
+  5. Declare a variable to be used in the logic for a scoreboard that keeps track of how fast you finished the maze in your previous try. 
+
+  6. Declare a variable to store the querySelector for our reset/restart button.
+
+  7. Call a function that will iterate through the game/board to determine whether or not the specified space has been reached and return that the player has won. 
+
+  8. Call a function that will produce some sort of message when the game is won (if the player makes it to the specified point) or if the game is lost (the timer runs out). 
+    - If timer does not work out, there will be no losing condition.
+    - If statement setting a parameter equal to the winning value would declare the player the winner, 
+    - Else the game could return null and the game would continue? 
+
+  9. Event Listeners: (2/2)
+    - Player Movement: Click or Arrow Keys
+    - Reset Button 
+    
+
+  ***Note: Research how to specifically create a secondary or even tertiary level of the game. Pressing reset could reset the game and provide a differently laid out board? 

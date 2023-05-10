@@ -1,9 +1,14 @@
 body {
 }
 
+h1 {
+  background-color: black;
+  color: white; 
+  text-align: center;
+  padding: 10px;
+}
 
 #board {
-  border: 1px solid black;
   display: grid;
   grid-template-columns: repeat(6, 10vmin);
   grid-template-rows: repeat(6, 10vmin);
@@ -11,7 +16,26 @@ body {
   justify-content: center;
 }
 
-div {
+#board > div {
   border: 1px solid black;
+  padding: 15px; 
 }
 
+.wall { 
+  background-color:black;
+}
+
+.path {
+  background-color: white;
+}
+
+.timer .scoreboard{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 30%;
+}
+
+.pL {
+  background-image: url('https://www.pngkey.com/png/detail/106-1066616_ninja-royalty-free-game-art-character-png-character.png');
+
+}

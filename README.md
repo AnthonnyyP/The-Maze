@@ -55,3 +55,9 @@ Wireframe (Ambitious):
 [Github](https://github.com/SEI-R-4-24/u1_lesson_connect_four)
 
 [Github](https://github.com/ant087/u1_lab_rock_paper_scissors)
+
+[StackOverflow](https://stackoverflow.com/questions/71105913/movement-controls-using-wasd-in-javascript)
+
+[MDN](https://developer.mozilla.org/en-US/docs/Games/Techniques/Tilemaps)
+
+[DevTo](https://dev.to/martyhimmel/moving-a-sprite-sheet-character-with-javascript-3adg)

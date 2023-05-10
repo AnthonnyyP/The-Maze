@@ -5,16 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maze Game</title>
-  <link rel = "stylesheet" href = "style.css">
+  <link rel= "stylesheet" href= "style.css">
+  <script src="script.js" defer></script>
 </head>
 
 
 <body>
-  <h1> Maze</h1>
-
-  <section id = "darkmode" class = "darkmode">
-    <h2><Button>DM</Button></h2>
-  </section>
+  <h1>Maze</h1>
 
   <section id = "timer" class = "timer" > 
     <h2>Timer</h2>
@@ -24,65 +21,52 @@
     <h2>Scoreboard</h2>
   </section>
 
-  <section id = "board" class = "board">
-
-    <div id = "0"></div>
-    <div id = "1"></div>
-    <div id = "2"></div>
-   
-    <div id = "3"></div>
-    <div id = "4"></div>
-    <div id = "5"></div>
-   
-    <div id = "6"></div>
-    <div id = "7"></div>
-    <div id = "8"></div>
-
-    <div id = "9"></div>
-    <div id = "10"></div>
-    <div id = "11"></div>
-   
-    <div id = "12"></div>
-    <div id = "13"></div>
-    <div id = "14"></div>
-   
-    <div id = "15"></div>
-    <div id = "16"></div>
-    <div id = "17"></div>
-
-    <div id = "18"></div>
-    <div id = "19"></div>
-    <div id = "20"></div>
-   
-    <div id = "21"></div>
-    <div id = "22"></div>
-    <div id = "23"></div>
-   
-    <div id = "24"></div>
-    <div id = "25"></div>
-    <div id = "26"></div>
-
-    <div id = "27"></div>
-    <div id = "28"></div>
-    <div id = "29"></div>
-   
-    <div id = "30"></div>
-    <div id = "31"></div>
-    <div id = "32"></div>
-   
-    <div id = "33"></div>
-    <div id = "34"></div>
-    <div id = "35"></div>
+  <h2 id = "w-message"></h2>
 
 
+  <section id="board" class="board">
+    
+
+    <div id="0" class="path"></div>
+    <div id="1" class="path" ></div>
+    <div id="2" class="path"></div>
+    <div id="3" class="wall"></div>
+    <div id="4" class="path"></div>
+    <div id="5" class="path"></div>
+    <div id="6" class="path"></div>
+    <div id="7" class="wall"></div>
+    <div id="8" class="path"></div>
+    <div id="9" class="wall"></div>
+    <div id="10" class="wall"></div>
+    <div id="11" class="wall"></div>
+    <div id="12" class="path"></div>
+    <div id="13" class="wall"></div>
+    <div id="14" class="path"></div>
+    <div id="15" class="path"></div>
+    <div id="16" class="path"></div>
+    <div id="17" class="path"></div>
+    <div id="18" class="wall"></div>
+    <div id="19" class="wall"></div>
+    <div id="20" class="path"></div>
+    <div id="21" class="wall"></div>
+    <div id="22" class="wall"></div>
+    <div id="23" class="path"></div>
+    <div id="24" class="path"></div>
+    <div id="25" class="path"></div>
+    <div id="26" class="path"></div>
+    <div id="27" class="path"></div>
+    <div id="28" class="wall"></div>
+    <div id="29" class="path"></div>
+    <div id="30" class="path"></div>
+    <div id="31" class="wall"></div>
+    <div id="32" class="wall"></div>
+    <div id="33" class="path"></div>
+    <div id="34" class="wall"></div>
+    <div id="35" class="path"></div>
   </section>
-
-  <section id = "directions" class = "directions">
-    <h2> Directions </h2>
-  </section>
-
-  <section id = "button" class = "button">
-    <button> Reset </button>
+  
+  <section id = "restart" class = "restart">
+    <button> Restart </button>
   </section>
   
 <footer></footer>

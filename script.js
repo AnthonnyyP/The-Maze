@@ -1,4 +1,5 @@
 let mapLevel = {
+  // This is an array used to create the map of the game where each index of the array is also synonymous to the div's ID. 
   map: [
     0, 0, 0, 1, 0, 0,
 
@@ -12,10 +13,11 @@ let mapLevel = {
 
     0, 1, 1, 0, 1, 0
   ],
-
+// We have a key value pair for the player and the player's starting position: Div #12 -- the first zero on line 8. 
   player: {
     position: 12
   },
+//We have another KVP for the goal and it's location: Div #35 -- the last zero of line 14. 
   goal: {
     position: 35
   }
@@ -39,15 +41,18 @@ const renderMessage = (sqIdx) => {
   }
 }
 
+let movingCondition = () => {
+  
+}
+
 const clickFunction = (evt) => {
   const sqIdx = parseInt(evt.target.id)
-  console.log(squareEls)
   if (mapLevel.map[sqIdx] === 0) {
-    let previousLocation = document.querySelectorAll('.pL')
+    let previousLocation = document.querySelectorAll('.character')
     previousLocation.forEach((loc) => {
-      loc.classList.remove('pL')
-      evt.target.classList.add('pL')
-      console.log
+      loc.classList.remove('character')
+      evt.target.classList.add('character')
+      console.log(evt.target.id)
     })
   } else {
     renderMessage(sqIdx)

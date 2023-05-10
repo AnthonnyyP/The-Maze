@@ -19,6 +19,7 @@ h1 {
 #board > div {
   border: 1px solid black;
   padding: 15px; 
+  
 }
 
 .wall { 
@@ -29,13 +30,16 @@ h1 {
   background-color: white;
 }
 
-.timer .scoreboard{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 30%;
+.character {
+  background-image: url('https://assets.stickpng.com/images/61d183263a856e0004c6334a.png');
+  background-size: 90%;
+  background-position: center; 
+  z-index: 4;
 }
 
-.pL {
-  background-image: url('https://www.pngkey.com/png/detail/106-1066616_ninja-royalty-free-game-art-character-png-character.png');
-
+.finish {
+  background-image: url('https://www.gran-turismo.com/gtsport/decal/8511883637456634888_1.png');
+  background-size: 12vmin;
+  background-position: center;
+  
 }

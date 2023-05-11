@@ -31,7 +31,7 @@ h1 {
 }
 
 .character {
-  background-image: url('https://assets.stickpng.com/images/61d183263a856e0004c6334a.png');
+  background-image: url(Images/amongusred.png);
   background-size: 90%;
   background-position: center; 
   z-index: 4;
@@ -41,5 +41,6 @@ h1 {
   background-image: url('https://www.gran-turismo.com/gtsport/decal/8511883637456634888_1.png');
   background-size: 12vmin;
   background-position: center;
+  z-index:
   
 }

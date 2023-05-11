@@ -33,6 +33,7 @@ const gameBoard = document.querySelector('#board')
 //Grabs all divs and stores within squareEls.
 const squareEls = gameBoard.querySelectorAll('div')
 
+//This function renders a message when a player tries to move onto a space indicated to be a "1" || "wall". 
 const renderMessage = (sqIdx) => {
   if (squareEls[sqIdx] === 0) {
     return
@@ -41,34 +42,34 @@ const renderMessage = (sqIdx) => {
   }
 }
 
-let movingCondition = () => {
-  
-}
+//This function will be called to calculate whether or not the space clicked is a valid move. Space clicked needs to be adjacent. 
 
+//let movingCondition = () => {}
+  //Math.floor(id/6) = row num id % 6 = column num
+
+
+//This function targets the event occuring in any of the squares being clicked. If the value of at the index is === 0, then it is a valid move. 
 const clickFunction = (evt) => {
   const sqIdx = parseInt(evt.target.id)
   if (mapLevel.map[sqIdx] === 0) {
+// The player model is given a class of "character" which is looped via forEach where the class is removed and then readded on the new square that was clicked.
     let previousLocation = document.querySelectorAll('.character')
-    previousLocation.forEach((loc) => {
+      previousLocation.forEach((loc) => {
       loc.classList.remove('character')
       evt.target.classList.add('character')
       console.log(evt.target.id)
     })
+    // If the value at the index is !== 0, then we'll call the renderMessage function to show an alert. 
   } else {
     renderMessage(sqIdx)
   }
 }
-// let previous location = document.queryselectorall(".imgclass"), forEach previous location and then remove class.
-// grab sqidx then add class, evt.target.addclass
+
 // Event listener for each of the squares of the board.
 squareEls.forEach((square) => {
   square.addEventListener('click', (evt) => clickFunction(evt))
 })
 
+// Function & event listener to reset the board.
 const resetBtnEl = document.querySelector('#restart')
 resetBtnEl.addEventListener('click', () => {})
-
-// Use id to check idx at map array to see if 0 or 1 at that idx.
-//If 0 = valid, player moves, if
-
-// Game Character

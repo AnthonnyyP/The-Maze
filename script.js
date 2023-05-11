@@ -26,8 +26,8 @@ let mapLevel = {
 // Accessing the necessary values for both the player and the goal and storing them in respective variables.
 let player = mapLevel.player.position
 
+//Used in the init(); 
 let startSquare = document.getElementById('12')
-
 let goalSquare = document.getElementById('35')
 
 //Grabs the gameboard and stores within gameBoard.
@@ -90,6 +90,7 @@ const init = () => {
 
   //Imports the HTML button and initializes the init function when clicked. 
 const resetBtnEl = document.querySelector('#restart')
+
 resetBtnEl.addEventListener('click', () => {
   init() 
 })

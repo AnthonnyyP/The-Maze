@@ -86,7 +86,7 @@ const renderWarningMessage = (sqIdx) => {
   }
 }
 const renderWinningMessage = (sqIdx) => {
-  if (squareEls[sqIdx] === goalSquare)
+  if (squareEls[sqIdx] === goalsq)
     winningMessage.innerHTML = "You win!"
   }
 
@@ -98,14 +98,16 @@ squareEls.forEach((square) => {
 // Function & event listener to reset the board.
 
 const init = () => {
-  resetBtnEl.evt.target.id
     goalSquare.classList.remove('character')
     startSquare.classList.add('character')
+    clickFunction()
+    renderWarningMessage()
+    renderWinningMessage()
+
   }
 
 
 const resetBtnEl = document.querySelector('#restart')
-
 resetBtnEl.addEventListener('click', () => {
-  resetGame() 
+  init() 
 })

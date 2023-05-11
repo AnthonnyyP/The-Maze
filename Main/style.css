@@ -1,6 +1,14 @@
 body {
-  background-image: url('https://images7.alphacoders.com/114/1146879.jpg');
-  background-size: fill;
+  background-image: url('https://wallpaperaccess.com/full/2401680.jpg');
+  background-size:contain;
+  border: 10px solid white;
+  border-image: repeating-linear-gradient(
+      -55deg,
+      #000,
+      #000 20px,
+      #ffb101 20px,
+      #ffb101 40px
+    ) 10;
 }
 
 h1 {
@@ -8,10 +16,16 @@ h1 {
   color: white; 
   text-align: center;
   padding: 10px;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 5px;
 }
 
 #w-message {
+  margin-bottom: 30px;
   color: white; 
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 5px;
 }
 
 #board {
@@ -20,6 +34,10 @@ h1 {
   grid-template-rows: repeat(6, 10vmin);
   cursor: pointer;
   justify-content: center;
+  border: 1px solid #ffb101;
+  margin: 0 auto; 
+  width: fit-content;
+  
 }
 
 #board > div {
@@ -40,12 +58,11 @@ h1 {
   background-image: url(Images/amongusred.png);
   background-size: 90%;
   background-position: center; 
-  z-index: 4;
 }
 
 .finish {
   background-image: url('https://www.gran-turismo.com/gtsport/decal/8511883637456634888_1.png');
-  background-size: 12vmin;
+  background-size: 12.8vmin;
   background-position: center;
   
 }
@@ -57,7 +74,18 @@ h1 {
 }
 
 #restart_button {
-  margin-top: 5%;
-  padding: 10px;
+  font-family: 'Staatliches', cursive;
+  margin-top: 8%;
+  margin-bottom: 28%;
+  color: white;
+  background-color: red;
+  border-style: inset;
+  border-radius: 30%;
+  height:30px;
+  width:80px; 
+  font-size: 15px;
+  text-align: center;
+  ;
+  cursor: pointer;
 
 }

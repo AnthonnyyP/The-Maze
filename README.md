@@ -70,4 +70,6 @@ Wireframe (Finished)
 
 [FreeCodeCamp](https://www.freecodecamp.org/news/javascript-2d-arrays/)
 
+[CodePen](https://codepen.io/hzlo/pen/VweYrLX)
+
 Also, thanks to Jan, Glenn, and Katharyn for helping with essential code. 

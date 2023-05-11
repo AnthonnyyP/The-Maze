@@ -6,19 +6,20 @@
 
 [Github](https://github.com/ant087)
 | [LinkedIn](https://www.linkedin.com/in/tp777/)
+| [Trello](https://trello.com/invite/b/vASsYrLE/ATTI74031c280b87dfb8e5497fadce5d9b1d697DF04F/project-maze)
 
 ---
 
 ## Getting Started
 
-- Fork and Clone this repo
+- Fork and Clone this rePpo
 - Open the repo in VS Code with `code .`
 
 ---
 
 ### **_Description_**:
 
-A simple maze style game where the player begins at a certain start point and must find their way to the end point.
+A simple maze style game themed after the popular popular game of betrayal and trickery -- Among Us. The player begins at a certain start point and must work their way through the maze to find the exit point. 
 
 Definite possibility that there could be a timer of some sort to increase the level of difficult in the game.
 
@@ -40,9 +41,14 @@ It will be coded using HTML, CSS, and vanilla Javascript.
 
 #### **_Screenshots_**:
 
-Wireframe (Ambitious):
-
+Wireframe (Initial):
 ![Image](https://i.imgur.com/xerczb7.png)
+
+Wireframe (Mid)
+![Image]()
+
+Wireframe (Finished)
+![Image]()
 
 ---
 
@@ -62,3 +68,6 @@ Wireframe (Ambitious):
 
 [DevTo](https://dev.to/martyhimmel/moving-a-sprite-sheet-character-with-javascript-3adg)
 
+[FreeCodeCamp](https://www.freecodecamp.org/news/javascript-2d-arrays/)
+
+Also, thanks to Jan, Glenn, and Katharyn for helping with essential code. 

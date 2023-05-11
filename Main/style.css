@@ -1,4 +1,6 @@
 body {
+  background-image: url('https://images7.alphacoders.com/114/1146879.jpg');
+  background-size: fill;
 }
 
 h1 {
@@ -6,6 +8,10 @@ h1 {
   color: white; 
   text-align: center;
   padding: 10px;
+}
+
+#w-message {
+  color: white; 
 }
 
 #board {
@@ -23,7 +29,7 @@ h1 {
 }
 
 .wall { 
-  background-color:black;
+  background-color:slategrey;
 }
 
 .path {
@@ -41,6 +47,17 @@ h1 {
   background-image: url('https://www.gran-turismo.com/gtsport/decal/8511883637456634888_1.png');
   background-size: 12vmin;
   background-position: center;
-  z-index:
   
+}
+
+
+#restart {
+  display:flex;
+  justify-content: center;
+}
+
+#restart_button {
+  margin-top: 5%;
+  padding: 10px;
+
 }

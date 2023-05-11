@@ -13,27 +13,6 @@ let mapLevel = {
 
     0, 1, 1, 0, 1, 0
   ],
-
-// % === 0 , edge
-// let left = idx % 6 === 0, left edge
-// let right = idx +1 % 6 === 0, right edge
-// let top = idx - 6 < 0, top edge 
-// let bot = idx + 6 > 35, bottom edge 
-
-
-// if left edge, check - 6 (top), +6 (bottom), +1 (right)
-//if top edge, check +6, +1 , -1
-//if right edge, -1 (left), +6, -6 
-//if bottom edge, -6, +1, -1 
-/* CORNERS:
- top-left corner: if IDX[0] +6, +1 
-top-right corner: if top && right, +6 -1 
-bottom-left corner: if left && bot, -6, +1 
-bottom-right corner: if bot && right, -1, -6 
-
-*/
-
-
 // We have a key value pair for the player and the player's starting position: Div #12 -- the first zero on line 8. 
   player: {
     position: 12
@@ -57,6 +36,7 @@ const gameBoard = document.querySelector('#board')
 //Grabs all divs and stores within squareEls.
 const squareEls = gameBoard.querySelectorAll('div')
 
+//Grabs the h2 element and eventually changes it to the winning message.
 const winningMessage = document.getElementById('w-message'); 
 
 
@@ -85,6 +65,8 @@ const renderWarningMessage = (sqIdx) => {
     alert("Can't go through walls, that's sus.")
   }
 }
+
+//Function is called when the player has reached the winning square. 
 const renderWinningMessage = (sqIdx) => {
   if (squareEls[sqIdx] === goalsq)
     winningMessage.innerHTML = "You win!"
@@ -95,18 +77,18 @@ squareEls.forEach((square) => {
   square.addEventListener('click', (evt) => clickFunction(evt))
 })
 
-// Function & event listener to reset the board.
 
+// Init function reinitializes the game, removing the .character class from the winning square and readding it to the starting spot.
 const init = () => {
     goalSquare.classList.remove('character')
     startSquare.classList.add('character')
     clickFunction()
     renderWarningMessage()
     renderWinningMessage()
-
   }
 
 
+  //Imports the HTML button and initializes the init function when clicked. 
 const resetBtnEl = document.querySelector('#restart')
 resetBtnEl.addEventListener('click', () => {
   init() 

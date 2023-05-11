@@ -12,7 +12,8 @@
 
 ## Getting Started
 
-- Fork and Clone this rePpo
+- Fork and Clone this repo.
+- Mkdir "maze-game" 
 - Open the repo in VS Code with `code .`
 
 ---
@@ -21,9 +22,15 @@
 
 A simple maze style game themed after the popular popular game of betrayal and trickery -- Among Us. The player begins at a certain start point and must work their way through the maze to find the exit point. 
 
-Definite possibility that there could be a timer of some sort to increase the level of difficult in the game.
-
 It will be coded using HTML, CSS, and vanilla Javascript.
+
+---
+
+#### **_Future Updates_**:
+
+Definite possibility that there could be a timer of some sort to increase the level of difficult in the game. 
+
+There will also be levels added with larger and trickier grids. 
 
 ---
 
@@ -42,13 +49,13 @@ It will be coded using HTML, CSS, and vanilla Javascript.
 #### **_Screenshots_**:
 
 Wireframe (Initial):
-![Image](https://i.imgur.com/xerczb7.png)
+![Imgur](https://i.imgur.com/EihakOm.png)
 
 Wireframe (Mid)
-![Image]()
+![Imgur](https://i.imgur.com/W0tQTsh.png)
 
 Wireframe (Finished)
-![Image]()
+![Imgur](https://i.imgur.com/uHz4xJ5.png)
 
 ---
 
@@ -72,4 +79,4 @@ Wireframe (Finished)
 
 [CodePen](https://codepen.io/hzlo/pen/VweYrLX)
 
-Also, thanks to Jan, Glenn, and Katharyn for helping with essential code. 
+Also, thanks to Jan, Glenn, and Katharyn for their contributions!

@@ -9,25 +9,24 @@ h1 {
 }
 
 #main-container {
- width: 50%
- text-align: center;
+  width: 50%;
+  text-align: center;
 }
 
 .backstory {
-color: white;
-text-align: center;
+  color: white;
+  text-align: center;
 }
 
 .backstory_p{
   color: white; 
   text-align: center;
-  background-color: 
 }
 
 .directions {
-color: white; 
-text-align: center;
-background-color: grey
+  color: white; 
+  text-align: center;
+  background-color: grey
 }
 
 .directions_p{
@@ -38,7 +37,6 @@ background-color: grey
 #enter {
   width: 20%;
   margin-left: 40%;
-  
 }
 
 

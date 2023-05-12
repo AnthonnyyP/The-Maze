@@ -49,7 +49,6 @@ const clickFunction = (evt) => {
     previousLocation.forEach((loc) => {
       loc.classList.remove('character')
       evt.target.classList.add('character')
-      console.log(evt.target.id)
       renderWinningMessage(evt.target)
     })
     // If the value at the index is !== 0, then we'll call the renderMessage function to show an alert.
@@ -69,7 +68,6 @@ const renderWarningMessage = (sqIdx) => {
 
 //Function is called when the player has reached the winning square.
 const renderWinningMessage = (evt) => {
-  console.log(evt.classList.value)
   if (
     evt.classList.value.includes('finish') &&
     evt.classList.value.includes('character')

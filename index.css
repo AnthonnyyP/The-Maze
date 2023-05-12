@@ -12,22 +12,26 @@ h1 {
   color: white;
   text-align: center;
   background-color: grey;
+  font-family: 'Staatliches', cursive;
 }
 
 .backstory_p{
   color: white; 
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .directions {
   color: white; 
   text-align: center;
-  background-color: grey
+  background-color: grey;
+  font-family: 'Staatliches', cursive;
 }
 
 .directions_p{
   color: white; 
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #enter {

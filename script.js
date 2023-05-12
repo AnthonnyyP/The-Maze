@@ -13,6 +13,7 @@ let mapLevel = {
 
     0, 1, 1, 0, 1, 0
   ],
+
   // We have a key value pair for the player and the player's starting position: Div #12 -- the first zero on line 8.
   player: {
     position: 12
@@ -64,14 +65,16 @@ const renderWarningMessage = (sqIdx) => {
   } else {
     alert("Can't go through walls, that's sus.")
   }
-  console.log(sqIdx)
 }
 
 //Function is called when the player has reached the winning square.
 const renderWinningMessage = (evt) => {
   console.log(evt.classList.value)
-  if (evt.classList.value.includes('finish') && evt.classList.value.includes('character')) {
-    winningMessage.innerHTML = 'You win!'
+  if (
+    evt.classList.value.includes('finish') &&
+    evt.classList.value.includes('character')
+  ) {
+    winningMessage.innerHTML = 'You have escaped!'
   }
 }
 

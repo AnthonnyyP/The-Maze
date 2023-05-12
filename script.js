@@ -13,19 +13,7 @@ let mapLevel = {
 
     0, 1, 1, 0, 1, 0
   ],
-
-  // We have a key value pair for the player and the player's starting position: Div #12 -- the first zero on line 8.
-  player: {
-    position: 12
-  },
-  //We have another KVP for the goal and it's location: Div #35 -- the last zero of line 14.
-  goal: {
-    position: 35
-  }
 }
-
-// Accessing the necessary values for both the player and the goal and storing them in respective variables.
-let player = mapLevel.player.position
 
 //Used in the init();
 let startSquare = document.getElementById('12')

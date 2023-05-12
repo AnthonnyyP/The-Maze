@@ -49,7 +49,7 @@ There will also be levels added with larger and trickier grids.
 #### **_Screenshots_**:
 
 Entry Page (Finished):
-![Imgur](https://i.imgur.com/J3nQILPs.png)
+![Imgur](https://i.imgur.com/J3nQILP.png)
 
 Wireframe (Initial):
 ![Imgur](https://i.imgur.com/EihakOm.png)

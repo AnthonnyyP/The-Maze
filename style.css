@@ -34,14 +34,14 @@ h1 {
   grid-template-rows: repeat(6, 10vmin);
   cursor: pointer;
   justify-content: center;
-  border: 1px solid #ffb101;
+  border: 5px solid #ffb101;
   margin: 0 auto; 
   width: fit-content;
   
 }
 
 #board > div {
-  border: 1px solid black;
+  border: .5px solid black;
   padding: 15px; 
   
 }
